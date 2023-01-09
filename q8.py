@@ -1,2 +1,1 @@
-print("Hello World")
-
+print((10 + 30 - 5 * 2) / 2)
