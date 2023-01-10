@@ -16,3 +16,6 @@ a = "{:10}".format(name)
 b = "{:10}".format(age)
 
 print(a, b)
+
+for count in range(3,7,2):
+    print(count)
