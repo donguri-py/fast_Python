@@ -15,3 +15,9 @@ x = "Hello"
 y = "Python"
 
 print(x,y)
+
+x = 100
+y = 200
+z = x+y
+
+print(z)
