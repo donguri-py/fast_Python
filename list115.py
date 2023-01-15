@@ -30,13 +30,57 @@
 # print(intlist[1:9:2])
 
 
-lang = ['Python', "Ruby", "PHP"]
+# lang = ['Python', "Ruby", "PHP"]
+# print(lang)
+#
+# lang[2] = "JavaScript"
+# print(lang)
+#
+# print(lang[2])
+
+
+# intlist = list(range(10))
+# print(intlist)
+#
+# intlist[0:5] = list(range(10,15))
+# print(intlist)
+#
+# intlist[0:2] = list(range(20,23))
+# print(intlist)
+#
+# intlist[0:6] = list(range(0,3))
+# print(intlist)
+#
+# intlist[0:2] = 1
+
+
+# intlist = list(range(10))
+# print(intlist)
+#
+# intlist[0:10:2] = list(range(10,19,2))
+# print(intlist)
+#
+# intlist[0:10:2] = [20,22,33,55,77]
+# print(intlist)
+
+lang = ["Python", "Ruby", "PHP"]
+lang.append("Perl")
 print(lang)
 
-lang[2] = "JavaScript"
+cs = "C#"
+number = 99
+
+lang += [cs, number]
 print(lang)
 
-print(lang[2])
+
+
+
+
+
+
+
+
 
 
 
